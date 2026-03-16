@@ -4,6 +4,7 @@ let n3 = 0.0;
 let n4 = 0.0;
 
 function calcularMedia(){
+    //n1, n2,n3,n4 = input
     mediaNotas = (n1 + n2 + n3 + n4) / 4
     if(mediaNotas=> 7.0){
         console.log("Voce esta aprovado!")
@@ -27,3 +28,5 @@ function calcularMedia(){
         }
     }
 }
+
+
